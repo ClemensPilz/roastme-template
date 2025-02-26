@@ -1,0 +1,60 @@
+@import '_variables';
+@import 'bootstrap';
+
+html,
+body {
+  background: rgb(13, 13, 13);
+}
+
+* {
+  text-underline-offset: 0.3em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+#roasted-button {
+  width: 100px;
+  height: 45px;
+}
+
+#message {
+  background-image: url('/resources/images/fire.svg');
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: center;
+}
+
+#card1 {
+  transform: rotate(10deg);
+}
+
+#card2 {
+  transform: rotate(-5deg);
+}
+
+#card3 {
+  transform: rotate(3deg);
+}
+
+// #footer {
+//   background: rgb(9, 31, 36);
+//   background: linear-gradient(
+//     0deg,
+//     rgba(9, 31, 36, 1) 0%,
+//     rgba(9, 31, 36, 0.26094187675070024) 100%
+//   );
+
+//   background-attachment: fixeds;
+// }

@@ -1,0 +1,33 @@
+{
+    "name": "roastme",
+    "version": "0.1.0",
+    "description": "Barebones template for a web app for roasting your friends with hot and spicy comments.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ClemensPilz/roastme-template.git"
+    },
+    "license": "MIT",
+    "author": "Clemens Pilz <office@clemenspilz.com>",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite",
+        "format": "npx prettier --write resources/ && php ./vendor/bin/pint"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.20",
+        "axios": "^1.7.4",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^1.2.0",
+        "postcss": "^8.4.47",
+        "prettier": "^3.5.2",
+        "prettier-plugin-blade": "^2.1.21",
+        "sass": "^1.83.4",
+        "tailwindcss": "^3.4.13",
+        "vite": "^6.0.11"
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.3"
+    }
+}
