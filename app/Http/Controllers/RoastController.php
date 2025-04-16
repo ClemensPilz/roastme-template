@@ -78,7 +78,7 @@ class RoastController extends Controller
                         'content' => $prompt,
                     ],
                 ],
-                'temperature' => '0.7',
+                'temperature' => 0.7,
             ];
 
             $response = Http::withHeaders(['Authorization' => 'Bearer '.config('roastme.OPEN_AI_TOKEN'),
