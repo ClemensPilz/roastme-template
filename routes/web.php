@@ -10,7 +10,7 @@ Route::get('/roast', function () {
     return view('roast');
 })->name('roast');
 
-Route::post('/roast', [App\Http\Controllers\RoastController::class, 'roast'])->middleware('throttle:roast');
+Route::post('/roast', [App\Http\Controllers\RoastController::class, 'index'])->middleware('throttle:roast');
 
 Route::get('/about', function () {
     return view('about');
